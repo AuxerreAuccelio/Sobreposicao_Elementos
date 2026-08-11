@@ -52,3 +52,33 @@ body{
 
 
 
+
+
+/* Elemento Folha de Sulfite */
+
+.folha_pai{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+
+    position: relative;
+
+    
+} 
+
+
+
+.folha_filho{
+    border-left: 100px solid rgb(133, 131, 133);
+    border-right: 100px solid #c6c6c6;
+    border-bottom: 100px solid #c6c6c6;
+    
+    rotate: 270deg;
+
+    position: absolute;
+    top: -50px;
+    right: -50px;
+
+
+    
+} 

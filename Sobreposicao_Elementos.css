@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+
+    background-color: #1a1818;
+}
+
+
+
+
+
+
+
+
+/* Elementos Triângulos */
+
+.elemento_pai{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+
+    position: relative;
+
+    margin-right: 250px;
+}
+
+.triangulo{
+    width: 200px;
+    height: 200px;
+    background-color: black; 
+
+    border-left: 50px solid orange; 
+    border-right: 50px solid crimson;
+    border-bottom: 50px solid blue;
+    rotate: 180deg;
+
+    position: absolute;
+    right: 50px;
+
+
+    margin-right: 250px;
+} 
+
+
+

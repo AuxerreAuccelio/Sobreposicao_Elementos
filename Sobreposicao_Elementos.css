@@ -125,3 +125,30 @@ body{
     left: 150px;
     top: 120px;
 }
+
+
+/* Elemento Google */
+
+.circulo_filho{
+    margin-left: 250px;
+
+    width: 200px;
+    height: 200px;
+    background-color: white;
+
+
+
+    border-radius: 50%;
+    border-left: 20px solid red;    
+    border-top: 20px solid rgb(5, 230, 61); 
+    border-right: 20px solid orange;
+    border-bottom: 20px solid blue;
+
+    margin-left: 150px;
+
+    position: relative;
+    z-index: -1;
+
+    left: -10px;
+    top: -10px;
+}
